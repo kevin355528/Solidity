@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/exampleStruts.sol": "exampleStruts"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/exampleStruts.sol": {
+			"keccak256": "0xc4554118286122b45c4e31305c97eca316c913d16886cb8acaf396773ad5fb08",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5cc5bcd86f061cb6e72824b8d48e12f472e18418fa453fb9d771f28fb5702bb1",
+				"dweb:/ipfs/QmQMdnNRmz41ikaSLJwjzJmvJbuF4aNGRWfM3ycxNYoC4m"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
+					}
+				],
+				"name": "setBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/exampleUint.sol": "exampleUin"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/exampleUint.sol": {
+			"keccak256": "0xdfb6571f202ac138d5502cc01c05a4f697492d4b5f2ac4a54efd69dd50097685",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd96b26084f9588226bfdcebef7b34407c49c6aa0098d315d920a8ce912c8ee6",
+				"dweb:/ipfs/QmZogUoXGccdXMu8pdpzWY9ikjWeSSJNnzmC95TVzjn2GE"
+			]
+		}
+	},
+	"version": 1
+}
