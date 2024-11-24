@@ -44,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleStructs.sol": "exampleStructs"
+			"contracts/exampleException.sol": "exampleExce"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -58,12 +58,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exampleStructs.sol": {
-			"keccak256": "0x23d9067a175a4c90d46d4b573277381ca986686517fb749223d6255e4075a490",
+		"contracts/exampleException.sol": {
+			"keccak256": "0x395681df3a0bec13ebb4e4158ca979e3b5235173eee296530ea5b7105e0d2a41",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://47d75b0dc6c8079b68890458be3514691c4f5c336b6a3139583a8b84269352f4",
-				"dweb:/ipfs/QmYTrUAwawPJC7yjACLzZkbt1REyUTUVkUqE2YABGwe3DH"
+				"bzz-raw://51350454ecf113bac15558393701f879e1206d7e0ddc7a3ed793da406ac6f795",
+				"dweb:/ipfs/QmRLdZKcVZQqbBNYDMTuLbmgwhDqHEm2D6XbHC3ahVRAF8"
 			]
 		}
 	},

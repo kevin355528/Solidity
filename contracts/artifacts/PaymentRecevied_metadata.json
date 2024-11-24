@@ -6,25 +6,42 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "payContract",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "payment",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "from",
+						"name": "_from",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_amount",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "amount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "from",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -44,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleStructs.sol": "exampleStructs"
+			"contracts/exampleStructs.sol": "PaymentRecevied"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,11 +76,11 @@
 	},
 	"sources": {
 		"contracts/exampleStructs.sol": {
-			"keccak256": "0x23d9067a175a4c90d46d4b573277381ca986686517fb749223d6255e4075a490",
+			"keccak256": "0xbcbc366148e61f13f95626d602710c4c54d706c3b6c0841639a969abcd1ed6c2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://47d75b0dc6c8079b68890458be3514691c4f5c336b6a3139583a8b84269352f4",
-				"dweb:/ipfs/QmYTrUAwawPJC7yjACLzZkbt1REyUTUVkUqE2YABGwe3DH"
+				"bzz-raw://ec9cd54af6ac61d56b23c5c52dda241d6256623bd0612f3f9457d3be288ee0af",
+				"dweb:/ipfs/Qma9wuXhSxP2aDgHCRhXY5yRBRhQR1ZfEvGvtz15ESmEJx"
 			]
 		}
 	},

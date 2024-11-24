@@ -4,7 +4,15 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "aFunction",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleTryCatch.sol": "exampleBool"
+			"contracts/exampleSendTransfer.sol": "WillThrow"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exampleTryCatch.sol": {
-			"keccak256": "0x196bab8d03b839d40ce97d4194b1a4ffe4a22c5e2c7a8112d66360590e324818",
+		"contracts/exampleSendTransfer.sol": {
+			"keccak256": "0x170d49fcb407f7919e829526286494cb58d09f4a1f9736d4262116a451d2856b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://997216b87906c42b1f4fb24da085bdd1c7e2c342fe09c6c0786e766a2a298ae1",
-				"dweb:/ipfs/QmUUCM38k4YGt76tzNKD5p5SYq8oo2f2GV8cgF4CNKGvhJ"
+				"bzz-raw://18cc45cea557a9b0537c03e995c8787678d3e21711882de9a27bf27dc2334827",
+				"dweb:/ipfs/QmSpwZr9nVXz6y7iGAR1vTwEKSLvyQUQvs5g5RDXF19iVV"
 			]
 		}
 	},

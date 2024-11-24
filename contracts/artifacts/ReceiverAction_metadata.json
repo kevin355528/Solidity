@@ -7,28 +7,33 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "payContract",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "payment",
+				"name": "balance",
 				"outputs": [
 					{
-						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -44,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleStructs.sol": "exampleStructs"
+			"contracts/exampleSendTransfer.sol": "ReceiverAction"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -58,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exampleStructs.sol": {
-			"keccak256": "0x23d9067a175a4c90d46d4b573277381ca986686517fb749223d6255e4075a490",
+		"contracts/exampleSendTransfer.sol": {
+			"keccak256": "0x564d261cea10fd21d3c8197b9225c4706ddf5acdb986726e9efb25ad989a5ff3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://47d75b0dc6c8079b68890458be3514691c4f5c336b6a3139583a8b84269352f4",
-				"dweb:/ipfs/QmYTrUAwawPJC7yjACLzZkbt1REyUTUVkUqE2YABGwe3DH"
+				"bzz-raw://2e3eecf3ea1fbdfe5634c6e9d4a75c6f9455eed7f47b4072a173f57c51243d5c",
+				"dweb:/ipfs/QmUgRGTBRu64W6N2bZeR8qvSSJ1JKssRowQ6E3sXNMceff"
 			]
 		}
 	},

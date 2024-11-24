@@ -6,29 +6,34 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "payContract",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "payment",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "from",
+						"name": "",
 						"type": "address"
-					},
+					}
+				],
+				"name": "addressBalances",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -44,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleStructs.sol": "exampleStructs"
+			"contracts/exampleContractCall.sol": "ContractOne"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -58,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exampleStructs.sol": {
-			"keccak256": "0x23d9067a175a4c90d46d4b573277381ca986686517fb749223d6255e4075a490",
+		"contracts/exampleContractCall.sol": {
+			"keccak256": "0x3d5f0f2f323be920b4eee62c4f82bcb5b651746d0777d13708a007019eeca8de",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://47d75b0dc6c8079b68890458be3514691c4f5c336b6a3139583a8b84269352f4",
-				"dweb:/ipfs/QmYTrUAwawPJC7yjACLzZkbt1REyUTUVkUqE2YABGwe3DH"
+				"bzz-raw://ab5385c3a11ecbb99ba0c8173821e2282ff5949d0055cd9ebe9c43809a8321c0",
+				"dweb:/ipfs/QmR19zgYW7WNAda7eFFkc4D7SHc23ugXoowEGtYyXdgmHN"
 			]
 		}
 	},

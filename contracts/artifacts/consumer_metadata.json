@@ -7,23 +7,18 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "payContract",
+				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "payment",
+				"name": "getBalance",
 				"outputs": [
 					{
-						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "",
 						"type": "uint256"
 					}
 				],
@@ -44,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleStructs.sol": "exampleStructs"
+			"contracts/SmartContractWallet.sol": "consumer"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -58,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exampleStructs.sol": {
-			"keccak256": "0x23d9067a175a4c90d46d4b573277381ca986686517fb749223d6255e4075a490",
+		"contracts/SmartContractWallet.sol": {
+			"keccak256": "0xc13bae3778146723069155eaa871f8416572da673f9f6e4991d9d197d60dca82",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://47d75b0dc6c8079b68890458be3514691c4f5c336b6a3139583a8b84269352f4",
-				"dweb:/ipfs/QmYTrUAwawPJC7yjACLzZkbt1REyUTUVkUqE2YABGwe3DH"
+				"bzz-raw://5b332ab3eb63f3b942826f2496582bbbe032c3eaad00f490ccdd0eb6b84eed23",
+				"dweb:/ipfs/Qmf14oc8DzYoTonabRdnXSYmxkewNZCvY5yso9kW7y7Rzu"
 			]
 		}
 	},

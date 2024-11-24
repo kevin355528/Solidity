@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleTryCatch.sol": "exampleBool"
+			"contracts/exampleSendTransfer.sol": "exampleSendTransfer"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exampleTryCatch.sol": {
-			"keccak256": "0x196bab8d03b839d40ce97d4194b1a4ffe4a22c5e2c7a8112d66360590e324818",
+		"contracts/exampleSendTransfer.sol": {
+			"keccak256": "0x994366ca47c84da5368daae8623a476988fffb7c3a81c3a689861313d99d1ba3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://997216b87906c42b1f4fb24da085bdd1c7e2c342fe09c6c0786e766a2a298ae1",
-				"dweb:/ipfs/QmUUCM38k4YGt76tzNKD5p5SYq8oo2f2GV8cgF4CNKGvhJ"
+				"bzz-raw://76719aa8e6b23b08b35a93a320af9fcdd54136e3931b092ad0b33c365d0389e2",
+				"dweb:/ipfs/QmNctFqTpaqfHAG26CZafKHfwX5L22172CUJpr7kxt29TK"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleTryCatch.sol": "exampleBool"
+			"contracts/exampleTryCatch.sol": "Will"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/exampleTryCatch.sol": {
-			"keccak256": "0x196bab8d03b839d40ce97d4194b1a4ffe4a22c5e2c7a8112d66360590e324818",
+			"keccak256": "0x27d7ec86b4a8e25500d571249a41be39e0b54f04c121cd4daf4577f93e900028",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://997216b87906c42b1f4fb24da085bdd1c7e2c342fe09c6c0786e766a2a298ae1",
-				"dweb:/ipfs/QmUUCM38k4YGt76tzNKD5p5SYq8oo2f2GV8cgF4CNKGvhJ"
+				"bzz-raw://133d8df38f7a74006c388becf69e800e87c68e022040d45a3572dded373afa9e",
+				"dweb:/ipfs/Qme4uHMzZeW6HMjAjTQAjwkLgfwT7MHXvjKon5QGZ4p3t2"
 			]
 		}
 	},
